@@ -1,0 +1,159 @@
+img {
+max-width: 100% !important;
+}
+.description_frame_2021 {
+margin: 0 auto;
+max-width: 1090px !important;
+}
+.visit_store_2021 {
+margin-top: 68.76px;
+}
+@media screen and ( max-width: 767px ) {
+.visit_store_2021 {
+display: none;
+}
+}
+.visit_store_2021_link {
+display: inline-block;
+font-size: 16px;
+font-weight: normal;
+line-height: 16px;
+white-space: nowrap;
+color: #4b4b4b !important;
+text-decoration: none !important;
+padding: 8px 10px 0 40px;
+background-image: url( "https://sdnath2020.github.io/Wakikaat/images/wakikaat_au_home_icon.png" );
+background-repeat: no-repeat;
+background-position: 0 2px;
+}
+.visit_store_2021_link:hover {
+background-position: 0 -29px;
+}
+
+.content_2021 {
+font-family: open sans,sans-serif!important;
+font-size: 13px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #000000;
+}
+.content_2021_bg {
+background-color: #292564;
+padding: 20px 35px;
+}
+.content_2021_bg_white {
+background-color: #ffffff;
+padding: 40px 20px;
+height: 100%;
+}
+.content_2021 h1,
+.content_2021 h2,
+.content_2021 h3,
+.content_2021 h4,
+.content_2021 h5,
+.content_2021 h6 {
+margin-bottom: 20px;
+font-size: 24px;
+font-weight: 700;
+line-height: 1;
+}
+.specifications_2021 li {
+padding: 3px 0;
+}
+.content_table_2021 {
+width: 100%;
+}
+.content_table_2021 tr:first-child {
+font-weight: 700;
+}
+.content_table_2021 td {
+padding: 3px 0;
+}
+.content_table_2021 td:first-child {
+padding-left: 15px;
+position: relative;
+}
+.content_table_2021 td:first-child::before {
+content: "\2713";
+font-weight: bold;
+position: absolute;
+left: 0;
+}
+.content_table_2021 td:last-child {
+text-align: right;
+}
+.content_table_2021 tr:first-child td:first-child {
+padding-left: 0;
+}
+.content_table_2021 tr:first-child td:first-child::before {
+content: "";
+}
+@media screen and ( max-width: 767px ) {
+.content_2021_bg {
+padding: 5px 15px;
+}
+}
+@media screen and ( max-width: 475px ) {
+.content_2021_bg {
+padding: 0 5px;
+}
+}
+
+.pst-tab label {
+min-width: 200px;
+}
+@media screen and ( max-width: 1070px ) {
+.pst-tab label {
+min-width: 135px;
+}
+}
+@media screen and ( max-width: 767px ) {
+.f-promo-bg {
+padding: 25px 0;
+}
+}
+.f-promo {
+padding: 10px 0;
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.visit_store_2021 {
+margin-top: 63.07px;
+}
+.mi-gallery img {
+width: 100%;
+}
+
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.mi-gallery img {
+width: 100%;
+}
+.visit_store_2021 {
+margin-top: 47.915px;
+}
+
+}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+.mi-gallery img {
+width: 100%;
+}
+
+.pro-desc-para {
+padding: 10px;
+}
+.content_2021_bg_white {
+padding: 20px 10px;
+}
+
+
+}
